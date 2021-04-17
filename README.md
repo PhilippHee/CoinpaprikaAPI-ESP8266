@@ -53,7 +53,7 @@ The source code ([**CoinpaprikaAPI-ESP8266.ino**](CoinpaprikaAPI-ESP8266.ino)) i
 - querying the Coinpaprika API depending on the selected coins
 - output of the coin information via the serial monitor
 
-The information of the coin is retrieved in the function `getTickerInfo()`, e.g.:
+The information of a coin is retrieved in the function `getTickerInfo()`, e.g.:
 ```
 CPTickerResponse ticker = getTickerInfo("btc-bitcoin");
 ```
